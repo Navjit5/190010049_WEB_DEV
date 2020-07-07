@@ -1,0 +1,80 @@
+@keyframes colorscheme {
+    from {background-color: #ffad33; color: whitesmoke;}
+    to {background-color: black; color: gold}
+  }
+  
+body{
+    background-color: #ffad33;                                                  /* used Animations */
+    color: whitesmoke;
+    animation-name: colorscheme;
+    animation-duration: 20s; 
+    animation-delay: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   /* used Shadows */
+}
+h4{
+    text-shadow: 1px 1px 2px chocolate, 0 0 10px goldenrod
+}
+
+#sec2{
+    margin: 15px 125px;                                                           /* used Margins */
+}
+.quotes{
+    margin: inherit;
+    font-style: italic;                                                           /* used Font-styling */
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 150;
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+#sec1 {
+    padding: 25px 250px;                                                           /* used Padding */
+}
+#a0{
+    border-style: double;                                                          /* used Borders */
+    border-color: coral;
+    padding: inherit;
+    line-height: 1.5em;
+    background-color:rgb(236, 172, 77);
+    transition: background-color 3s ease-out 0.5s;                                 /* used Transition */
+}
+#a0:hover {
+    background-color: chocolate;
+}
+
+ul {                                                                               /* used Navigation bar */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 29, 27);
+} 
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 15px 75px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightgray;                                      /* Change the link color on hover */
+}
+li {
+    border-right: 1px solid seashell;
+}
+li:last-child {
+    border-right: none;
+}
+
+
